@@ -1,0 +1,268 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: 'Open Sans', sans-serif
+	overflow-x: hidden
+	opacity: 1
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.container-fluid
+	width: 1700px	
+header
+.adv
+	background-color: #f5f5f5
+	
+	.banner
+		width: 730px
+		height: 80px
+		background-color: #e8e8e8
+		margin-left: 25%	
+		
+
+.site-header
+	display:inline-block
+    position:relative
+    margin-top: 50px
+	img
+		background-size: cover
+		position: 	absolute
+		
+		
+
+nav
+	position: relative
+.navbar 
+	padding-bottom: 0
+	margin-bottom: 0
+	background: #000
+	border: none
+.navbar-brand 
+	width: 95px
+	height: 50px
+	margin-right: 30px
+.navbar-nav
+	color: #808080
+	font-size: 15px
+	font-weight: 300
+	text-transform: uppercase
+	
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus
+	background: #000
+	color: $green
+	font-weight: 700	
+ 	
+.navbar-default .navbar-nav > li > a:hover
+	color: #fff
+	background: #000
+
+.navbar-right 
+	span
+		color: $green
+		font-size: 	32px
+
+	.form-group
+		background: #000
+		input
+			background: #000
+			border-right: none
+
+.btn-default
+	background: $green
+	padding: 0 6px
+	border: none
+	.fa
+		color: #fff
+		font-size: 32px
+		font-weight: 300
+
+.glyphicon-cog, .glyphicon-align-justify
+	color: $green
+	font-size: 28px
+
+.navbar.second
+	background: rgba(22, 45, 50, 0.7)
+	height: 85px
+	width: 100%
+	float: left
+	.navbar-nav li 
+
+		margin-right: 30px
+		color: #fff
+		font-family: 'Open Sans', sans-serif
+		font-weight: 400
+		font-size: 15px
+		
+ 
+.navbar.second .btn
+	float: right
+	width: 270px
+	height: 40px
+	background: $green
+	margin-top: 10px
+	text-transform: uppercase
+	a
+		color: #fff	
+		font-size: 15px
+		font-weight: 700
+		padding-top: 5px
+		
+					
+.navbar.second .navbar-nav li.big
+	font-size: 20px
+	font-weight: 700
+	span
+		font-size: 15px
+		font-weight: 300
+
+.navbar.second .navbar-nav li img
+	margin-right: 30px
+	padding-right: 50px
+	
+.markers
+	position: relative
+	top: 170px
+	color: #fff
+	font-size: 25px
+	font-weight: 400
+	span
+		margin-top: -10px 
+.markers .second_marker
+	margin-top: 90px	
+
+.markers .four_marker
+	margin-top: 20px	
+
+.content
+	position: absolute
+	top: 600px
+	width: 100%
+	.container-fluid
+		width: 1700px
+
+		.row.days
+			background: $green
+			.col-md-3
+				margin-top: 15px
+				border-right: 1px solid #fff
+
+				.item
+					color: #fff
+					font-style: 15px
+					text-align: center
+			.col-md-3.city
+				border-right: none
+				margin-top: 0
+
+				.item_1
+					color: #fff
+
+					h3
+						font-size: 35px
+						text-transform: uppercase
+						font-weight: 700
+						font-family: 'Open Sans', sans-serif
+						margin-bottom: 0
+						padding-bottom: 0
+		.row.forecast
+			background: $gray
+			height: 380px
+			line-height: 5px 
+			padding-top: 0
+			margin-top: 0
+			iframe 
+				border: 3px $gray solid
+				margin-top: 20px
+				width: 610px
+				height: 340px
+			h2	
+				font-size: 45px
+				font-weight: 700
+				text-transform: uppercase
+				color: 	$title	
+			a h3
+				font-size: 35px
+				font-weight: 400
+				text-transform: uppercase
+				color: 	$title
+				text-decoration: none
+			a h3:hover
+				color: 	$light-title
+				text-decoration: none !important
+			.col-md-4 p i
+				font-style: normal
+				font-size: 25px
+				color: $green
+				text-align: left
+				padding-top: 0
+				padding-left: 40px
+				display: block
+			.col-md-4 img
+				padding-top: 20px
+
+.adv-block
+	width: 100%
+	height: auto
+	position: relative
+	z-index: -3
+	top: 735px
+	.img
+		margin-bottom: 50px
+.holiday
+	position: relative
+	z-index: -3
+	top: 800px
+	height: auto
+	h2
+		font-size: 45px
+		font-weight: 700
+		text-transform: uppercase
+		color: 	$title	 
+	.item
+		display: table
+		img
+			position: relative
+		span
+			margin-top: -100px
+			
+			
+
+
+@import "media" // Всегда в конце

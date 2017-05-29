@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Weather</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#fff">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#fff">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+
+
+</head>
+
+<body>
+<header>
+<div class="adv"> 
+<div class="banner">
+			<a href="#"> <img src="" alt="" width="730" height="80"> </a></div>
+		</div>
+	<div class="site-header">
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"> <img src="img/logo.png" alt=""></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li  class="active"><a href="#">API</a></li>
+         <li><a href="#">Activities</a></li>
+          <li><a href="#">Search</a></li>
+           <li><a href="#">World</a></li>
+            <li><a href="#">Holiday</a></li>
+       
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+       <li><a href="#"> <span class="glyphicon glyphicon-heart">  </span>
+       </a></li>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default"> <a href="#"><i class="fa fa-compass" aria-hidden="true"></i></a></button>
+      </form>
+        <li><a href="#"> <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> </a></li>
+         <li><a href="#"> <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span> </a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+		<img src="img/map.jpg" alt="">
+		<nav class="navbar navbar-default second">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li class="big">  Manchester <br> <span>Now </span> </li>
+        <li class="snow"> <img src="img/snow.png" alt="" width="50px" hight="50px"></li> 
+        <li>  Light snow </li>
+        <li> -10 <sup>0</sup>C </li>
+        <li>Precip<br> 0.30 mm |  0.01 Inches </li>
+        <li>Wind: <br>
+ENE @ 13.6 mph/ 22.0 km/h </li>
+<li>Humidity: <br>	
+85 %</li>
+<li>Sunrise: <br>
+07:25 AM</li>
+<li> Sunset: <br>
+05:00 PM</li>
+      </ul>
+      <div class="btn">
+      	 <a href="#">full forecast </a>
+      </div>
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="markers">
+<div class="container">
+<div class="row">
+	<div class="col-md-3"><div class="first_marker"> <span>-30 <sup>0</sup>C</span> <br> <img src="img/check_2.png" alt=""> </div></div>
+
+	<div class="col-md-3"><div class="second_marker"> <span>-9 <sup>0</sup>C</span> <br> <img src="img/check_1.png" alt=""></div> 
+	</div>
+
+	<div class="col-md-3"><div class="three_marker">  <span>30 <sup>0</sup>C</span> <br><img src="img/check_3.png" alt=""></div></div>
+	<div class="col-md-3"><div class="four_marker">  <span> 15 <sup>0</sup>C</span> <br><img src="img/check_4.png" alt=""></div></div>
+</div>
+	</div>
+</div>
+</div>
+</div>	
+	</header>
+	<section class="content">
+		<div class="container-fluid">
+			<div class="row days">
+				<div class="col-md-3 city"> <div class="item_1">  <h3>Manchester</h3> <span>three-day forecast </span></div></div>
+				<div class="col-md-3"> <div class="item"> 
+				<p>  Mon <img src="img/rain.png" alt="" width="50" height="50"><span> min <span> - 15 <sup>0</sup> C</span></span>  max <span> - 10 <sup>0</sup> C</span></p>
+
+				</div> </div>
+				<div class="col-md-3"> <div class="item">
+				<p>  Tue <img src="img/rain.png" alt="" width="50" height="50"><span> min <span> - 1 <sup>0</sup> C</span></span>  max <span> 4 <sup>0</sup> C</span></p>
+				
+				</div></div>
+				<div class="col-md-3">
+					<div class="item">
+<p>  Mon <img src="img/rain.png" alt="" width="50" height="50"><span> min <span> 5 <sup>0</sup> C</span></span>  max <span>  10 <sup>0</sup> C</span></p>
+					
+					
+				</div>
+				</div>
+			</div>
+			<div class="row forecast">
+				<div class="col-md-8">
+					<h2> UK WEATHER</h2>
+					<div class="row">
+						<div class="col-md-4">
+							<a href="#"><h3>Manchester</h3></a>
+							<p><img src="img/weather-icons.png" alt=""> <span>Light Snow</span>  <i>-10 <sup>0</sup> C </i></p>
+						</div>
+						<div class="col-md-4"> <a href="#"><h3>London</h3></a>
+							<p><img src="img/weather-icons.png" alt=""> <span>Light Snow</span>  <i>-10 <sup>0</sup> C </i></p></div>
+						<div class="col-md-4"><a href="#"><h3>York</h3></a>
+							<p><img src="img/weather-icons.png" alt=""> <span>Light Snow</span>  <i>-10 <sup>0</sup> C </i></p>
+					</div>
+					<div class="row">
+						<div class="col-md-4"><a href="#"><h3>Manchester</h3></a>
+							<p><img src="img/weather-icons.png" alt=""> <span>Light Snow</span>  <i>-10 <sup>0</sup> C </i></p></div>
+						<div class="col-md-4"><a href="#"><h3>Manchester</h3></a>
+							<p><img src="img/weather-icons.png" alt=""> <span>Light Snow</span>  <i>-10 <sup>0</sup> C </i></p></div>
+						<div class="col-md-4"><a href="#"><h3>Manchester</h3></a>
+							<p><img src="img/weather-icons.png" alt=""> <span>Light Snow</span>  <i>-10 <sup>0</sup> C </i></p></div>
+					</div>
+				</div>
+				</div>
+				<div class="col-md-4">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Sh85jKmNhaE"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<section class="adv-block">
+	<div class="container"> <img src="img/banner.png" alt="" width="730" height="85"></div>
+</section>
+<section class="holiday">
+<div class="container-fluid">
+	<h2>HOLIDAY WEATHER</h2>
+	<div class="row">
+		<div class="col-md-7">
+			<div class="item"><img src="img/Valencia_1.png" alt="" width="1020" height="170">
+ <img src="img/weather-sun.png" alt=""> <span> Valencia Light Snow</span>  <i>-10 <sup>0</sup> C </i> 
+<a href="#"> Full Forecast</a> 
+
+			</div>
+			<div class="item"><img src="img/Valencia_3.png" alt="" width="650" height="240"> <img src="img/banner.png"  alt="" width="305" height="240">	
+<div class="slogan"> <img src="img/weather-sun.png" alt=""> Valencia <span>Light Snow</span>  <i>-10 <sup>0</sup> C </i> 
+<a href="#"> Full Forecast</a> 
+</div>
+			</div>
+			<div class="item"><img src="img/Valencia_5.png" alt="" width="1010" height="170">
+<div class="slogan"> <img src="img/weather-sun.png" alt=""> Valencia <span>Light Snow</span>  <i>-10 <sup>0</sup> C </i> 
+<a href="#"> Full Forecast</a> 
+</div>
+			</div>
+		</div>
+		<div class="col-md-5">
+		<div class="item"><img src="img/Valencia_2.png" alt="" width="720" height="300">
+<div class="slogan"> <img src="img/weather-sun.png" alt=""> Valencia <span>Light Snow</span>  <i>-10 <sup>0</sup> C </i> 
+<a href="#"> Full Forecast</a> 
+</div>
+			</div>
+			<div class="item"><img src="img/Valencia_4.png" alt="" width="700" height="300">
+<div class="slogan"> <img src="img/weather-sun.png" alt=""> Valencia <span>Light Snow</span>  <i>-10 <sup>0</sup> C </i> 
+<a href="#"> Full Forecast</a> 
+</div>
+			</div>
+		 </div>
+
+	</div>
+	</div>
+
+</section>
+	
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
